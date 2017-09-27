@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="zh">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>miniPaint - online image editor</title>
+<title>在线画板 - Scrat_Tel</title>
 <meta name="description" content="miniPaint is free online image editor using HTML5. Edit, adjust your images, add effects online in your browser, without installing anything..." />
 <meta name="keywords" content="photo, image, picture, transparent, layers, free, edit, html5, canvas, javascript, online, photoshop, gimp, effects, sharpen, blur, magic wand tool, clone tool, rotate, resize, photoshop online, online tools, tilt shift, sprites, keypoints" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,30 +11,52 @@
 <!-- Google -->
 <meta itemprop="name" content="miniPaint" />
 <meta itemprop="description" content="miniPaint is free online image editor using HTML5. Edit, adjust your images, add effects online in your browser, without installing anything..." />
-<meta itemprop="image" content="http://viliusle.github.io/miniPaint/img/preview.gif" />
+<meta itemprop="image" content="http://www.jobshelp.cn/paint/img/preview.gif" />
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="miniPaint" />
 <meta name="twitter:description" content="miniPaint is free online image editor using HTML5. Edit, adjust your images, add effects online in your browser, without installing anything..." />
-<meta name="twitter:image" content="http://viliusle.github.io/miniPaint/img/preview.gif" />
+<meta name="twitter:image" content="http://balderzwz.github.io/paint/img/preview.gif" />
 <meta name="twitter:image:alt" content="miniPaint is free online image editor using HTML5. Edit, adjust your images, add effects online in your browser, without installing anything..." />
 <!-- Facebook, Pinterest -->
 <meta property="og:title" content="miniPaint" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://viliusle.github.io/miniPaint/" />
-<meta property="og:image" content="http://viliusle.github.io/miniPaint/img/preview.gif" />
+<meta property="og:url" content="http://www.jobshelp.cn/paint" />
+<meta property="og:image" content="http://www.jobshelp.cn/paint/img/preview.gif" />
 <meta property="og:description" content="miniPaint is free online image editor using HTML5. Edit, adjust your images, add effects online in your browser, without installing anything..." />
 <meta property="og:site_name" content="miniPaint" />
+
+<!-- <script type="text/javascript"> 
+ // 防止非站内打开 
+    var refurl=document.referrer; 
+
+    if(refurl.indexOf("www.jobshelp.cn")>-1){ 
+        
+     }
+	else {
+	
+	location.replace("http://www.jobshelp.cn"); 
+    }     
+</script> -->
+
+<script language="JavaScript"> 
+//防止页面后退
+        history.pushState(null, null, document.URL);
+        window.addEventListener('popstate', function () {
+            history.pushState(null, null, document.URL);
+        });
+</script> 
+
 </head>
 <body>
 <div id="wrapper">
 	<div id="sidebar_left">
-		<a id="logo" href="">miniPaint</a>
+		<a id="logo" href="">TOOLS</a>
 		<div id="menu_left_container">
 			<noscript>
-				Select object tool, Select area tool, Magic Wand Tool, 
-				Erase, Fill, Pick Color, Pencil, Draw line, Draw letters, 
-				Draw rectangle, Draw circle, Brush, Blur tool, Sharpen tool, 
+				选择对象, 选择区域, 魔法棒, 
+				橡皮擦, 填充, 取色, 画笔, 直线, 字符, 
+				矩形, 圆形, 刷子, 模糊, 锐化, 
 				Clone tool, Gradient
 			</noscript>
 		</div>
@@ -269,13 +291,13 @@
 		<a class="icon help trn" href="#">Help</a>
 		<ul>
 			<li><a class="trn dots" onclick="call_menu(HELP, 'help_shortcuts');" href="#">Keyboard Shortcuts</a></li>
-			<li><a class="trn" onclick="window.location='http://viliusle.github.io/miniPaint/';" href="http://viliusle.github.io/miniPaint/">Website</a></li>
+			<li><a class="trn" onclick="window.location='http://www.jobshelp.cn/paint/';" href="http://www.jobshelp.cn/paint/">Website</a></li>
 			<li class="more">
 				<a class="trn" href="#">Language</a>
 				<ul>
 					<li><a onclick="call_menu(HELP, 'help_translate', 'en');" href="#">English</a>
 					<li><div class="mid-line"></div></li>
-					<li><a onclick="call_menu(HELP, 'help_translate', 'zh');" href="#">简体中文）</a>
+					<li><a onclick="call_menu(HELP, 'help_translate', 'zh');" href="#">简体中文</a>
 					<li><a onclick="call_menu(HELP, 'help_translate', 'es');" href="#">Español</a>
 					<li><a onclick="call_menu(HELP, 'help_translate', 'fr');" href="#">French</a>	
 					<li><a onclick="call_menu(HELP, 'help_translate', 'de');" href="#">German</a>	

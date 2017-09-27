@@ -33,12 +33,12 @@ function HELP_CLASS() {
 	};
 	//about
 	this.help_about = function () {
-		var email = 'www.viliusl@gmail.com';
-		POP.add({title: "Name:", value: "miniPaint"});
-		POP.add({title: "Version:", value: VERSION});
-		POP.add({title: "Author:", value: 'ViliusL'});
-		POP.add({title: "Email:", html: '<a href="mailto:' + email + '">' + email + '</a>'});
-		POP.add({title: "GitHub:", html: '<a href="https://github.com/viliusle/miniPaint">http://github.com/viliusle/miniPaint</a>'});
+		var email = 'jasonzhang100@126.com';
+		POP.add({title: "名称:", value: "在线画板"});
+		POP.add({title: "版本:", value: VERSION});
+		POP.add({title: "作者:", value: 'Scrat_Tel'});
+		POP.add({title: "邮件:", html: '<a href="mailto:' + email + '">' + email + '</a>'});
+		POP.add({title: "网站:", html: '<a href="http://www.jobshelp.cn/paint">http://www.jobshelp.cn/paint</a>'});
 		POP.show('About', '');
 	};
 	

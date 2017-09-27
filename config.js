@@ -16,7 +16,7 @@ var WIDTH;						//canvas midth
 var HEIGHT;						//canvas height
 var COLOR = '#0000ff';				//active color
 var ALPHA = 255;					//active color alpha
-var LANG = 'en';					//active language
+var LANG = 'zh';					//active language
 
 var DRAW_TOOLS_CONFIG = [
 	{name: 'select_tool', 	title: 'Select object tool',	icon: ['sprites.png', 0+7, 2],	attributes: {}		},
