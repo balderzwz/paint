@@ -55,7 +55,7 @@ function popup() {
 		popup = document.getElementById('popup');
 		var dim = HELPER.get_dimensions();
 		
-		popup.style.top = 5 + 'px';
+		popup.style.top = 1 + 'px';
 		var left = Math.round(dim[0] / 2 - 500/2);
 		left = Math.max(left, 0);
 		popup.style.left = left + 'px';
